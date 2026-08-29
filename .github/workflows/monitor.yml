@@ -1,8 +1,8 @@
 name: Monitor
 on:
   schedule:
-    # 每天台灣時間下午 4 點（cron 用的是 UTC，所以寫 8）
-    - cron: "0 8 * * *"
+    # 每天台灣時間下午 6 點（cron 用的是 UTC，所以寫 10）
+    - cron: "0 10 * * *"
   workflow_dispatch:
 permissions:
   contents: write
